@@ -1,2 +1,4 @@
 FROM ubuntu:18.04
 ADD https://downloads.apache.org/tomcat/tomcat-8/v8.5.69/bin/apache-tomcat-8.5.69.zip.asc /home/
+ADD sudo apt update
+ADD sudo apt install apache-tomcat-8.5.69
